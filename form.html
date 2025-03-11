@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maternal Chatbot Pre-Chat Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="chatbot-icon-on-white-background-online-support-service-bot-sign-chat-bot-sign-for-support-service-concept-flat-style-vector-removebg-preview.png" alt="Logo" class="logo-img">
+               <a href="/index.html"> <span class="logo-text" style="color: white;">MetCare</span> </a>
+            </div>
+        </header>
+        
+        <main>
+            <h1>Pre-Chat Form</h1>
+            <p class="subtitle">Please fill out the form to receive personalized guidance.</p>
+            
+            <form action="submit_form.php" method="POST" class="chat-form">
+                
+                <h2>Personal Details</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <br>
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <h2>Health and Pregnancy Details</h2>
+                <label>Are you pregnant?</label>
+                <input type="radio" id="pregnant-yes" name="pregnant" value="Yes"> <label for="pregnant-yes">Yes</label>
+                <input type="radio" id="pregnant-no" name="pregnant" value="No"> <label for="pregnant-no">No</label>
+                <br>
+                <label for="weeks">Week of pregnancy (if applicable):</label>
+                <input type="number" id="weeks" name="weeks">
+                <br>
+                <label for="due-date">Expected due date (if applicable):</label>
+                <input type="date" id="due-date" name="due-date">
+                <br>
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" name="weight" required>
+                <br>
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" name="height" required>
+                <br>
+                <label>Any pre-existing medical conditions?</label>
+                <input type="radio" id="conditions-yes" name="conditions" value="Yes"> <label for="conditions-yes">Yes</label>
+                <input type="radio" id="conditions-no" name="conditions" value="No"> <label for="conditions-no">No</label>
+                <br>
+                <label>Previous pregnancies or childbirths?</label>
+                <input type="radio" id="previous-yes" name="previous" value="Yes"> <label for="previous-yes">Yes</label>
+                <input type="radio" id="previous-no" name="previous" value="No"> <label for="previous-no">No</label>
+                <br><br>
+                <h2>Consent</h2>
+                <label>I consent to sharing my personal and health information with the chatbot for the purpose of receiving personalized guidance and support.</label>
+                <input type="radio" id="consent-yes" name="consent" value="Yes" required> <label for="consent-yes">Yes</label>
+                <input type="radio" id="consent-no" name="consent" value="No" required> <label for="consent-no">No</label>
+                <br><br>
+                <button type="submit" class="send-button">Submit</button>
+            </form>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Maternal Chatbot. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
