@@ -10,8 +10,8 @@ MetCare is an AI-powered maternal health chatbot designed to assist expectant mo
 - **Secure Data Handling**: Ensures privacy and confidentiality.
 - **Future Scope**: AI-driven health predictions and medical report analysis.
 
-# Dialogflow Chatbot - https://dialogflow.cloud.google.com/#/agents
-# Telegram Chatbot - https://t.me/MetCareBot
+## Dialogflow Chatbot - https://dialogflow.cloud.google.com/#/agents
+## Telegram Chatbot - https://t.me/MetCareBot
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS (Responsive UI)
@@ -41,7 +41,7 @@ MetCare/
 We welcome contributions! Feel free to submit issues, feature requests, or pull requests. 
 
 ## 📄 License
-This project is licensed under the **MIT License**. 
+We don't have any license yet...
 
 ---
 🚀 *Empowering maternal health with AI-driven support!*
